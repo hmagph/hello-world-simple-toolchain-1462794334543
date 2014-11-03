@@ -498,7 +498,11 @@ public class TrackedFileSet {
 	}
 
 	public void writeResource(String resourceLocation, InputStream input) throws IOException {
-		File file = new File(RESOURCE_ROOT_FOLDER + resourceLocation);
+		File root = RESOURCE_ROOT_FOLDER;
+		if (!root.exists()) {
+			root.mkdir();
+		}
+		File file = new File(RESOURCE_ROOT_FOLDER, resourceLocation);
 		if (file.exists()) {
 			boolean ok = file.delete();
 			if (!ok) throw new IOException("Unable to delete existing resource: "+ resourceLocation);
