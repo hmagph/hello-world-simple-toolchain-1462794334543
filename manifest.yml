@@ -1,8 +1,7 @@
 applications:
 - disk_quota: 1024M
-  host: jfiletrs
   name: jfiletrs
-  path: webStarterApp.war
+  path: filetrs.war
   domain: mybluemix.net
   instances: 1
-  memory: 512M
+  memory: 256M
