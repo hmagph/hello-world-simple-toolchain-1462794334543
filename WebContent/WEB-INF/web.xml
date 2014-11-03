@@ -11,7 +11,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>FileTRS</servlet-name>
-    <url-pattern>/filetrs</url-pattern>
+    <url-pattern>/*</url-pattern>
   </servlet-mapping>
 
 </web-app>
