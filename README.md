@@ -1,3 +1,8 @@
+Try it for yourself:
+[Deploy to Bluemix](https://hub.jazz.net/code/cfui/bluemix/deploy.html?Repository=https://hub.jazz.net/git/muletpp/jfiletrs)
+
+[![Deploy to Bluemix](https://raw.githubusercontent.com/jarthorn/bluemix-sample-node-app/master/public/deploy2bluemix.png)](https://hub.jazz.net/code/cfui/bluemix/deploy.html?Repository=https://hub.jazz.net/git/muletpp/jfiletrs)
+
 This README.md file is displayed on your project page. You should edit this 
 file to describe your project, including instructions for building and 
 running the project, pointers to the license under which you are making the 
